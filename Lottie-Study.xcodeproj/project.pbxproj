@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C50E2D856C779A1DDBD47D6 /* Pods_Lottie_Study.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5310ECBC53D9B47F4FDFC3E1 /* Pods_Lottie_Study.framework */; };
 		9A45B43A267F22C7004A10C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45B439267F22C7004A10C2 /* AppDelegate.swift */; };
 		9A45B43C267F22C7004A10C2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45B43B267F22C7004A10C2 /* SceneDelegate.swift */; };
 		9A45B43E267F22C7004A10C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45B43D267F22C7004A10C2 /* ViewController.swift */; };
 		9A45B441267F22C7004A10C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B43F267F22C7004A10C2 /* Main.storyboard */; };
 		9A45B443267F22C8004A10C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B442267F22C8004A10C2 /* Assets.xcassets */; };
 		9A45B446267F22C8004A10C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B444267F22C8004A10C2 /* LaunchScreen.storyboard */; };
+		9A45B45A267F2812004A10C2 /* AnimationCollectionViewCEll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A45B459267F2812004A10C2 /* AnimationCollectionViewCEll.swift */; };
+		9A45B46D267F2FB6004A10C2 /* payLoading.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B465267F2FB6004A10C2 /* payLoading.json */; };
+		9A45B46E267F2FB6004A10C2 /* dotColor.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B466267F2FB6004A10C2 /* dotColor.json */; };
+		9A45B46F267F2FB6004A10C2 /* cube.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B467267F2FB6004A10C2 /* cube.json */; };
+		9A45B470267F2FB6004A10C2 /* ftx.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B468267F2FB6004A10C2 /* ftx.json */; };
+		9A45B471267F2FB6004A10C2 /* potPlant.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B469267F2FB6004A10C2 /* potPlant.json */; };
+		9A45B472267F2FB6004A10C2 /* homeIcon.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B46A267F2FB6004A10C2 /* homeIcon.json */; };
+		9A45B473267F2FB6004A10C2 /* text.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B46B267F2FB6004A10C2 /* text.json */; };
+		9A45B476267F3203004A10C2 /* door.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B474267F3203004A10C2 /* door.json */; };
+		9A45B477267F3203004A10C2 /* heart.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A45B475267F3203004A10C2 /* heart.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		307DDE6C9D4F6ABE1C426CB3 /* Pods-Lottie-Study.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Study.release.xcconfig"; path = "Target Support Files/Pods-Lottie-Study/Pods-Lottie-Study.release.xcconfig"; sourceTree = "<group>"; };
+		5310ECBC53D9B47F4FDFC3E1 /* Pods_Lottie_Study.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lottie_Study.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A45B436267F22C7004A10C2 /* Lottie-Study.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lottie-Study.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A45B439267F22C7004A10C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A45B43B267F22C7004A10C2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +37,17 @@
 		9A45B442267F22C8004A10C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A45B445267F22C8004A10C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A45B447267F22C8004A10C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A45B459267F2812004A10C2 /* AnimationCollectionViewCEll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationCollectionViewCEll.swift; sourceTree = "<group>"; };
+		9A45B465267F2FB6004A10C2 /* payLoading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = payLoading.json; sourceTree = "<group>"; };
+		9A45B466267F2FB6004A10C2 /* dotColor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = dotColor.json; sourceTree = "<group>"; };
+		9A45B467267F2FB6004A10C2 /* cube.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cube.json; sourceTree = "<group>"; };
+		9A45B468267F2FB6004A10C2 /* ftx.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ftx.json; sourceTree = "<group>"; };
+		9A45B469267F2FB6004A10C2 /* potPlant.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = potPlant.json; sourceTree = "<group>"; };
+		9A45B46A267F2FB6004A10C2 /* homeIcon.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = homeIcon.json; sourceTree = "<group>"; };
+		9A45B46B267F2FB6004A10C2 /* text.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = text.json; sourceTree = "<group>"; };
+		9A45B474267F3203004A10C2 /* door.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = door.json; sourceTree = "<group>"; };
+		9A45B475267F3203004A10C2 /* heart.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = heart.json; sourceTree = "<group>"; };
+		FAA5220DC6BCBE29A47B39D8 /* Pods-Lottie-Study.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lottie-Study.debug.xcconfig"; path = "Target Support Files/Pods-Lottie-Study/Pods-Lottie-Study.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C50E2D856C779A1DDBD47D6 /* Pods_Lottie_Study.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,8 +65,11 @@
 		9A45B42D267F22C7004A10C2 = {
 			isa = PBXGroup;
 			children = (
+				9A45B463267F2FB6004A10C2 /* LottieAnimatons */,
 				9A45B438267F22C7004A10C2 /* Lottie-Study */,
 				9A45B437267F22C7004A10C2 /* Products */,
+				B321100E98C427403B991283 /* Pods */,
+				AF07D1382AE4CA3A8BC94ACF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +87,46 @@
 				9A45B439267F22C7004A10C2 /* AppDelegate.swift */,
 				9A45B43B267F22C7004A10C2 /* SceneDelegate.swift */,
 				9A45B43D267F22C7004A10C2 /* ViewController.swift */,
+				9A45B459267F2812004A10C2 /* AnimationCollectionViewCEll.swift */,
 				9A45B43F267F22C7004A10C2 /* Main.storyboard */,
 				9A45B442267F22C8004A10C2 /* Assets.xcassets */,
 				9A45B444267F22C8004A10C2 /* LaunchScreen.storyboard */,
 				9A45B447267F22C8004A10C2 /* Info.plist */,
 			);
 			path = "Lottie-Study";
+			sourceTree = "<group>";
+		};
+		9A45B463267F2FB6004A10C2 /* LottieAnimatons */ = {
+			isa = PBXGroup;
+			children = (
+				9A45B465267F2FB6004A10C2 /* payLoading.json */,
+				9A45B466267F2FB6004A10C2 /* dotColor.json */,
+				9A45B467267F2FB6004A10C2 /* cube.json */,
+				9A45B468267F2FB6004A10C2 /* ftx.json */,
+				9A45B469267F2FB6004A10C2 /* potPlant.json */,
+				9A45B46A267F2FB6004A10C2 /* homeIcon.json */,
+				9A45B46B267F2FB6004A10C2 /* text.json */,
+				9A45B474267F3203004A10C2 /* door.json */,
+				9A45B475267F3203004A10C2 /* heart.json */,
+			);
+			path = LottieAnimatons;
+			sourceTree = "<group>";
+		};
+		AF07D1382AE4CA3A8BC94ACF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5310ECBC53D9B47F4FDFC3E1 /* Pods_Lottie_Study.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B321100E98C427403B991283 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAA5220DC6BCBE29A47B39D8 /* Pods-Lottie-Study.debug.xcconfig */,
+				307DDE6C9D4F6ABE1C426CB3 /* Pods-Lottie-Study.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +136,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A45B44A267F22C8004A10C2 /* Build configuration list for PBXNativeTarget "Lottie-Study" */;
 			buildPhases = (
+				E85F062F4A674CCDC441185D /* [CP] Check Pods Manifest.lock */,
 				9A45B432267F22C7004A10C2 /* Sources */,
 				9A45B433267F22C7004A10C2 /* Frameworks */,
 				9A45B434267F22C7004A10C2 /* Resources */,
+				FA0BD0B36D956C0528DDFD6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,13 +188,64 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A45B46E267F2FB6004A10C2 /* dotColor.json in Resources */,
+				9A45B470267F2FB6004A10C2 /* ftx.json in Resources */,
+				9A45B477267F3203004A10C2 /* heart.json in Resources */,
+				9A45B46D267F2FB6004A10C2 /* payLoading.json in Resources */,
 				9A45B446267F22C8004A10C2 /* LaunchScreen.storyboard in Resources */,
 				9A45B443267F22C8004A10C2 /* Assets.xcassets in Resources */,
+				9A45B476267F3203004A10C2 /* door.json in Resources */,
+				9A45B471267F2FB6004A10C2 /* potPlant.json in Resources */,
+				9A45B46F267F2FB6004A10C2 /* cube.json in Resources */,
 				9A45B441267F22C7004A10C2 /* Main.storyboard in Resources */,
+				9A45B472267F2FB6004A10C2 /* homeIcon.json in Resources */,
+				9A45B473267F2FB6004A10C2 /* text.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E85F062F4A674CCDC441185D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lottie-Study-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0BD0B36D956C0528DDFD6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lottie-Study/Pods-Lottie-Study-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lottie-Study/Pods-Lottie-Study-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lottie-Study/Pods-Lottie-Study-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A45B432267F22C7004A10C2 /* Sources */ = {
@@ -138,6 +253,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A45B43E267F22C7004A10C2 /* ViewController.swift in Sources */,
+				9A45B45A267F2812004A10C2 /* AnimationCollectionViewCEll.swift in Sources */,
 				9A45B43A267F22C7004A10C2 /* AppDelegate.swift in Sources */,
 				9A45B43C267F22C7004A10C2 /* SceneDelegate.swift in Sources */,
 			);
@@ -216,7 +332,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -271,7 +387,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -283,6 +399,7 @@
 		};
 		9A45B44B267F22C8004A10C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAA5220DC6BCBE29A47B39D8 /* Pods-Lottie-Study.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +419,7 @@
 		};
 		9A45B44C267F22C8004A10C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 307DDE6C9D4F6ABE1C426CB3 /* Pods-Lottie-Study.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
